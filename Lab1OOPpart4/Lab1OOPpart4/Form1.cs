@@ -25,7 +25,7 @@ namespace Lab1OOPpart4
         private void button1_Click(object sender, EventArgs e)
         {
             Label label = new Label();
-            label.Text = "Зібрав стільця під номером " + count.ToString();
+            label.Text = "Доброго ранку " + count.ToString();
             label.Font = new Font("Arial", 10, FontStyle.Bold);
             label.Location = new Point(10, 50 * count);
             label.Size = new Size(800, 20);
